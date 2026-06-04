@@ -85,28 +85,15 @@ body{
   }
 }
 @media (min-width:769px){
-
-.form-container{
-  margin-left:18rem;
-  width:calc(100% - 18rem);
-}
-
+  .form-container{
+    width:100%;
+  }
 }
 
 @media (max-width:768px){
-
-.form-container{
-  margin-left:0;
-  width:100%;
-}
-
-}
-@media (min-width:769px){
-
-.form-container{
-  margin-left:18rem;
-  width:calc(100vw - 18rem);
-}
-
+  .form-container{
+    margin-left:0;
+    width:100%;
+  }
 }
 

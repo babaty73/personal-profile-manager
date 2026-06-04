@@ -1,6 +1,5 @@
 .setting-container {
     min-height: 100vh;
-    margin-left: 18rem;
     padding: 3rem 2rem;
     background: linear-gradient(135deg, #eef2ff, #dbe4ff);
     display: flex;
@@ -224,10 +223,13 @@
 .setting-container{
     margin-left: 0;
     padding: 2rem 1rem;
+    width: 100%;
 }
 
 .settings-page{
     padding: 2rem;
+    width: 100%;
+    max-width: 100%;
 }
 
 .font{
@@ -238,10 +240,7 @@
 
 }
 @media (min-width:769px){
-
-.setting-container{
-  margin-left:18rem;
-  width:calc(100vw - 18rem);
-}
-
+  .setting-container{
+    width:100%;
+  }
 }

@@ -1,5 +1,4 @@
 .profile-container{
-margin-left:18rem;
 min-height:100vh;
 background:linear-gradient(135deg,#dfe6f7,#d6dffa);
 padding:2rem;
@@ -205,28 +204,15 @@ font-size:14px;
 
 }
 @media (min-width:769px){
-
-.profile-container{
-  margin-left:18rem;
-  width:calc(100% - 18rem);
-}
-
+  .profile-container{
+    width:100%;
+  }
 }
 
 @media (max-width:768px){
-
-.profile-container{
-  margin-left:0;
-  width:100%;
-}
-
-}
-@media (min-width:769px){
-
-.profile-container{
-  margin-left:18rem;
-  width:calc(100vw - 18rem);
-}
-
+  .profile-container{
+    margin-left:0;
+    width:100%;
+  }
 }
 
